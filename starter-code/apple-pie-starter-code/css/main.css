@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+}
+.hero {
+    background-image: url("./../images/apple-pie.jpg");
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    text-align: center;
+    padding: 50vh;
+    box-sizing: border-box;
+}
+.bosta {
+    color: white;
+    font-size: 80px;
+    line-height: 1.2;
+}
+.porratudo {
+    color: darkslategray;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin: 50px auto;
+}
+.infos {
+    width: auto;
+    text-align: center;
+}
+.infos img {
+    width: 400px;
+}
+
+h2 {
+    color: darkslategray;
+}
+ol {
+    padding-left: 30px;
+}
+ul {
+    padding-left: 10px;
+}
+ul li {
+    list-style-type: none;
+}
+li {
+    margin-top: 5px;
+}
+
+.container {
+    border-top: 2px solid gray;
+    margin: 60px auto;
+    color: darkslategray;
+    font-size: 17px;
+    text-align: left;
+    width: 60%;
+}
